@@ -1,0 +1,70 @@
+html, header, body
+{
+  margin: 0;
+  padding: 0;
+}
+
+
+header, footer
+{
+    background-color: black;
+    color: whitesmoke;
+    padding: 30px;
+}
+
+main 
+{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+h1, h2, h3
+{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h1 
+{
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+h2 
+{
+    letter-spacing: 1px;
+    padding-bottom: 40px;
+}
+
+p
+{
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#starters, #greens, #pizzas, #wine
+{ 
+    padding: 20px;
+    margin: 0px auto;
+}
+
+.price
+{
+    display: block;
+    color: darkblue;
+    font-weight:600;
+    letter-spacing: 2px;
+    padding-bottom: 50px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer
+{
+    margin-top: 100px;
+}
